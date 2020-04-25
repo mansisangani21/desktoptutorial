@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "IPhone Watch charger",
+        "price1": 281,
+        "price2": 299,
+        "image": {
+          "fields": {
+            "file": {
+             "url": "image/pc.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "I-Watch",
+        "price1": 5989,
+        "price2": 6499,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/p4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "IPhone Wirless Charger",
+        "price1": 352,
+        "price2": 399,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/p3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "I-Pad",
+        "price1": 7045,
+        "price2": 7449,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/p5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Head Phone",
+        "price1": 366,
+        "price2": 399,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/pp.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Wirless Head Phone",
+        "price1": 2113,
+        "price2": 2499,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/p8.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "I-Phone",
+        "price1": 17614,
+        "price2": 17999,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/ph1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "IPhone Charger",
+        "price1": 211,
+        "price2": 256,  
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/p6.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

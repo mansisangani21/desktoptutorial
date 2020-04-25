@@ -1,0 +1,139 @@
+<html>
+<head>
+	<title> Registration </title>
+	<link rel="stylesheet" type="text/css" href="css/Registration.css">
+</head>
+<body>
+	<header>
+		<div id="navigation">
+				<nav>
+					<img src="image/logo1.png" width="200" height="80">
+					<ul>
+						<h2>
+						<li><a href="index.html"> Home </a></li>
+						<li><a href="Service.html"> Service </a></li>
+						<li><a href="Our Product.html"> Our Product </a></li>
+						<li><a href="Contact us.html"> Contact us </a></li>
+						<li><a href="Registration.html"> Registration </a></li>
+						</h2>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+	<div class="box">
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+			</div>
+			<div class="social-icons">
+				<a href="https://www.facebook.com/">
+					<img src="image/facebook.png" width="40" height="40">&nbsp
+				</a>
+				<a href="https://www.instagram.com">
+					<img src="image/instagram.jpg" width="40" height="40">&nbsp
+				</a>
+				<a href="https://twitter.com">
+					<img src="image/twitter.png" width="40" height="40">
+				</a>
+			</div>
+
+			<form  id="login" class="input-group">
+				<input type="text" class="input-field" placeholder="@User Id" required>
+				<input type="text" class="input-field" placeholder="Enter Password" required>
+				<input type="checkbox" class="check-box"><span> Remember Password</span>
+				<button type="Submit" class="Submit-btn"> Log In </button>
+			</form>
+
+			<form id="register" class="input-group">
+				<input type="text" class="input-field" placeholder="First Name" required>
+				<input type="text" class="input-field" placeholder="Last Name" required>
+				<input type="text" class="input-field" placeholder="User Id" required>
+				<input type="email" class="input-field" placeholder="Email Id" required>
+				<input type="text" class="input-field" placeholder="Enter Password" required>
+				<input type="checkbox" class="check-box"><span> I agree to the terms & conditions</span>
+				<button type="Submit" class="Submit-btn"> Register </button>
+			</form>
+		</div>
+	</div>
+	
+	<script>
+		var x = document.getElementById("login");
+		var y = document.getElementById("register");
+		var z = document.getElementById("btn");
+
+		function register()
+		{
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+		}
+
+		function login()
+		{
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0";
+		}
+
+	</script>
+
+	<footer>
+		<font color="black">
+
+			<div class="image">
+				<b>STAY TOUCH WITH US</b><br><br>
+				<a href="https://www.facebook.com/">
+					<img src="image/facebook.png" width="40" height="40">&nbsp
+				</a>
+				<a href="https://www.instagram.com">
+					<img src="image/instagram.jpg" width="40" height="40">&nbsp
+				</a>
+				<a href="https://twitter.com">
+					<img src="image/twitter.png" width="40" height="40">
+				</a>
+			</div>
+
+			<div class="Service">
+				<h2>About Us</h2>
+				Privacy Policy<br>
+				Terms & Conditions<br>
+				Site Map<br>
+				News & Events
+			</div>
+
+			<div class="Help">
+				<h2>Help</h2>
+				Support<br>
+				FAQs<br>
+				Our licence<br>
+				Feedback<br>
+				Blog
+			</div>
+
+			<div class="logo">
+				<img src="image/logo1.png" width="200" height="80">
+			</div><br>
+
+			<div class="address">
+				<img src="image/loc.png" width="20" height="20">
+				Address:- Delhi Gate,Ring Road,surat.<br>
+				&nbsp &nbsp  Dist.:- Surat - 395003.
+			</div><br>
+
+			<div class="Mobile number">
+				<img src="image/phone.png" width="20" height="20">
+				Contact no. :- +91 9081074359
+			</div><br>
+
+			<div class="Email id">
+				<img src="image/eid.jpg" width="20" height="20">
+				Email Id:-mobileaccessories2312@gmail.com
+			</div><br><br>
+		</font>
+	</footer>
+	
+</body>
+</html>

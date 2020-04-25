@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "sys": { "id": "41" },
+      "fields": {
+        "title": "Oppo Mobile",
+        "price1": 2253,
+        "price2": 2549,
+        "image": {
+          "fields": {
+            "file": {
+             "url": "image/o1.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "42"
+      },
+      "fields": {
+        "title": "Oppo Charger",
+        "price1": 84,
+        "price2": 99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "43"
+      },
+      "fields": {
+        "title": "Oppo Earphone",
+        "price1": 56,
+        "price2": 99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "44"
+      },
+      "fields": {
+        "title": "Oppo Headset",
+        "price1": 56,
+        "price2": 89,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "45"
+      },
+      "fields": {
+        "title": "Oppo Bluetooth",
+        "price1": 127,
+        "price2": 149,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "46"
+      },
+      "fields": {
+        "title": "Oppo Powerbank",
+        "price1": 210,
+        "price2": 269,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "47"
+      },
+      "fields": {
+        "title": "Oppo Headphone",
+        "price1": 225,
+        "price2": 249,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "48"
+      },
+      "fields": {
+        "title": "Oppo Adapter",
+        "price1": 141,
+        "price2": 169,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/o8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

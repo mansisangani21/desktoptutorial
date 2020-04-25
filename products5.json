@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "Samsung Mobile",
+        "price1": 12528,
+        "price2": 12989,
+        "image": {
+          "fields": {
+            "file": {
+             "url": "image/s1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "18"
+      },
+      "fields": {
+        "title": "Samsung Charger",
+        "price1": 211,
+        "price2": 249,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "19"
+      },
+      "fields": {
+        "title": "Samsung Watch Charger",
+        "price1": 845,
+        "price2": 899,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "20"
+      },
+      "fields": {
+        "title": "Samsung Buds",
+        "price1": 1374,
+        "price2": 1399,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "21"
+      },
+      "fields": {
+        "title": "Samsung Level u",
+        "price1": 348,
+        "price2": 399,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "22"
+      },
+      "fields": {
+        "title": "Samsung Earphone",
+        "price1": 42,
+        "price2": 89,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "23"
+      },
+      "fields": {
+        "title": "Samsung Watch Gear",
+        "price1": 6045,
+        "price2": 6499,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "24"
+      },
+      "fields": {
+        "title": "Samsung Wireless Charger",
+        "price1": 112,
+        "price2": 149,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/s8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

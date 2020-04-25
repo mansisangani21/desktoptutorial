@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="css/Contact us.css" />
+
+</head>
+<body>
+	<header>
+		<div id="navigation">
+			<nav>
+				<img src="image/logo1.png" width="200" height="80">
+				<ul>
+					<h2>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="Service.html"> Service </a></li>
+					<li><a href="Our Product.html"> Our Product </a></li>
+					<li><a href="Contact us.html"> Contact us </a></li>
+					<li><a href="Registration.html"> Registration </a></li>
+					</h2>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="contact">
+		<h2>Contact us</h2>
+		<div id="error_message"></div>
+
+		<form id="myform" onsubmit="return validation()">
+
+			<div class="input_field">
+				<input type="text" placeholder="Name" id="name">
+			</div>
+
+			<div class="input_field">
+				<input type="text" placeholder="Subject" id="subject">
+			</div>
+
+			<div class="input_field">
+				<input type="text" placeholder="Phone" id="phone">
+			</div>
+
+			<div class="input_field">
+				<input type="text" placeholder="Email" id="email">
+			</div>
+
+			<div class="input_field">
+				<textarea id="message" placeholder="Message" ></textarea>
+			</div>
+
+			<div class="btn">
+				<input type="submit">
+			</div>
+
+		</form>
+	</div>
+
+	<script>
+		
+		function validation(){
+			var name = document.getElementById("name").value;
+			var subject = document.getElementById("subject").value;
+			var phone = document.getElementById("phone").value;
+			var email = document.getElementById("email").value;
+			var message = document.getElementById("message").value;
+			var error_message = document.getElementById("error_message");
+
+
+			error_message.style.padding = "10px";
+
+			if(name.length <5) {
+				text = "Please Enter Valid Name";
+				error_message.innerHTML = text;
+				return false;
+			}
+
+			if(subject.length <10) {
+				text = "Please Enter Correct Subject";
+				error_message.innerHTML = text;
+				return false;
+			}
+
+			if(isNaN(phone) || phone.length != 10) {
+				text = "Please Enter Valid Phone Number";
+				error_message.innerHTML = text;
+				return false;
+			}
+
+			if(email.indexOf("@") == -1 || email.length < 6) {
+				text = "Please Enter Valid Email";
+				error_message.innerHTML = text;
+				return false;
+			}
+
+			if(message.length <= 140) {
+				text = "Please Enter More Than 140 Characters";
+				error_message.innerHTML = text;
+				return false;
+			}
+			alert("Form Submitted Successfully!")
+			return True;
+			
+		}
+
+	</script>
+
+	<footer>
+		<font color="black">
+
+			<div class="image">
+				<b>STAY TOUCH WITH US</b><br><br>
+				<a href="https://www.facebook.com/">
+					<img src="image/facebook.png" width="40" height="40">&nbsp
+				</a>
+				<a href="https://www.instagram.com">
+					<img src="image/instagram.jpg" width="40" height="40">&nbsp
+				</a>
+				<a href="https://twitter.com">
+					<img src="image/twitter.png" width="40" height="40">
+				</a>
+			</div>
+
+			<div class="Service">
+				<h2>About Us</h2>
+				Privacy Policy<br>
+				Terms & Conditions<br>
+				Site Map<br>
+				News & Events
+			</div>
+
+			<div class="Help">
+				<h2>Help</h2>
+				Support<br>
+				FAQs<br>
+				Our licence<br>
+				Feedback<br>
+				Blog
+			</div>
+
+			<div class="logo">
+				<img src="image/logo1.png" width="200" height="80">
+			</div><br>
+
+			<div class="address">
+				<img src="image/loc.png" width="20" height="20">
+				Address:- Delhi Gate,Ring Road,surat.<br>
+				&nbsp &nbsp  Dist.:- Surat - 395003.
+			</div><br>
+
+			<div class="Mobile number">
+				<img src="image/phone.png" width="20" height="20">
+				Contact no. :- +91 9081074359
+			</div><br>
+
+			<div class="Email id">
+				<img src="image/eid.jpg" width="20" height="20">
+				Email Id:-mobileaccessories2312@gmail.com
+			</div><br><br>
+		</font>
+	</footer>
+
+</body>
+</html>

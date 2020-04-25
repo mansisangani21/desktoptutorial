@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "Mi Mobile",
+        "price1": 7213,
+        "price2": 7581,
+        "image": {
+          "fields": {
+            "file": {
+             "url": "image/m1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "34"
+      },
+      "fields": {
+        "title": "Mi Charger",
+        "price1": 70,
+        "price2": 99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "35"
+      },
+      "fields": {
+        "title": "Mi Headset",
+        "price1": 254,
+        "price2": 299,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "36"
+      },
+      "fields": {
+        "title": "Mi Powerbank",
+        "price1": 126,
+        "price2": 199,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "37"
+      },
+      "fields": {
+        "title": "Mi Wireless Bluetooth",
+        "price1": 183,
+        "price2": 249,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "38"
+      },
+      "fields": {
+        "title": "Mi Earphone",
+        "price1": 56,
+        "price2": 99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "39"
+      },
+      "fields": {
+        "title": "Mi Airdots",
+        "price1": 211,
+        "price2": 289,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "40"
+      },
+      "fields": {
+        "title": "Mi Band",
+        "price1": 324,
+        "price2": 379,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/m8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

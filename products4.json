@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "Vivo Mobile",
+        "price1": 2817,
+        "price2": 2899,
+        "image": {
+          "fields": {
+            "file": {
+             "url": "image/v1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "26"
+      },
+      "fields": {
+        "title": "Vivo Charger",
+        "price1": 70,
+        "price2": 99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "27"
+      },
+      "fields": {
+        "title": "Vivo Earphone",
+        "price1": 70,
+        "price2": 99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "28"
+      },
+      "fields": {
+        "title": "Vivo Watch Charger",
+        "price1": 127,
+        "price2": 149,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v4.jfif"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "29"
+      },
+      "fields": {
+        "title": "Vivo Watch",
+        "price1": 1268,
+        "price2": 1289,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "30"
+      },
+      "fields": {
+        "title": "Vivo Bluetooth",
+        "price1": 42,
+        "price2": 89,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "31"
+      },
+      "fields": {
+        "title": "Vivo Airpods",
+        "price1": 1381,
+        "price2": 1399,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "32"
+      },
+      "fields": {
+        "title": "Vivo Headphone",
+        "price1": 169,
+        "price2": 199,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "image/v8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
